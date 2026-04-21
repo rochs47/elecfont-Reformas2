@@ -13,8 +13,8 @@ const guarantees = [
   },
   {
     icon: Package,
-    title: "Materiales de calidad",
-    description: "Solo trabajamos con materiales de primeras marcas y proveedores de confianza."
+    title: "",
+    description: " ."
   },
   {
     icon: Award,
@@ -36,7 +36,7 @@ export function Guarantees() {
             Tu confianza, nuestra responsabilidad
           </h2>
           <p className="max-w-2xl mx-auto text-background/70 text-lg">
-            Trabajamos con total transparencia y nos comprometemos con resultados. 
+            Trabajamos con total transparencia y nos comprometemos con resultados.
             Estas son nuestras garantías para ti.
           </p>
         </div>
@@ -44,8 +44,8 @@ export function Guarantees() {
         {/* Guarantees Grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {guarantees.map((guarantee, index) => (
-            <div 
-              key={index} 
+            <div
+              key={index}
               className="p-8 rounded-2xl border border-background/10 hover:border-background/30 transition-colors"
             >
               <div className="w-14 h-14 bg-background/10 rounded-xl flex items-center justify-center mb-6">
