@@ -67,7 +67,7 @@ export function Hero() {
           <div className="w-px h-12 bg-white/20 hidden sm:block" />
           <div className="flex items-center gap-2">
             <span className="text-3xl font-bold text-white"></span>
-            <span className="text-sm">de garantía<br />en obras</span>
+            <span className="text-sm"><br />en obras</span>
           </div>
         </div>
       </div>
